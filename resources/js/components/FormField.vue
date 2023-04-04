@@ -36,6 +36,9 @@
                 geosearchOptions: {
                     provider: new EsriProvider(),
                     showMarker: false,
+                    retainZoomLevel: true,
+                    animateZoom: false,
+                    autoClose: false,
                     style: "bar",
                     searchLabel: this.field.searchLabel
                         || "Enter address",
